@@ -39,3 +39,9 @@ gem 'unicorn'
 gem "byebug", group: [:development, :test]
 
 gem 'rspec-rails', '~> 3.0'
+
+gem 'rgl'
+
+group :test do
+  gem 'database_cleaner'
+end
